@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <div class="container ">
+
+            <a class="navbar-brand text-light" href="#">
+                <!-- <img src="img/Screenshot (13).png" alt="" width="70%" height="50%"> -->
+                <div class="wrapper">
+                    <h1 class="my-logo">SHARIQ</h1>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about-us">About Me <a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#what-i-do">What I DO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#my-work">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact-us">Contact Me</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div>
+            <p class="text-light text-center fs-25 fs-md-35 m-0">HI, I'M A FREELANCER</p>
+            <!-- <p class="text-light fw-700 fs-100  m-0 text-center ">DEVELOPER|</p> -->
+            <div class='console-container'><span id='text'></span>
+                <div class='console-underscore' id='console'>&#95;</div>
+            </div>
+            <p class="text-light text-center fs-22 fw-400">based in Bhopal, India.</p>
+            <p class="text-center"> <button class="btn  view-work-btn rounded-0 mt-3"
+                    onclick="myFunction('my-work')">view My Works </button></p>
+
+        </div>
+    </header>
+
+    <section class="section-1 " id="about-us">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">About Me</span></p>
+            <p class="fw-600 fs-40 text-center mb-2 mb-md-5">Know Me More</p>
+
+            <div class="row mb-5">
+                <div class="col-md-8">
+                    <p class="fs-28 fs-md-35">Hi, I'm <span class="my-name">Md Shariq</span> </p>
+                    <p class="fs-22">I'm a designer & developer with a passion for web design. I enjoy developing
+                        simple, clean and
+                        slick websites that provide real value to the end user. Numbers of clients have procured
+                        exceptional results while working with me. Delivering work within time and budget which meets
+                        client’s requirements is My moto.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="my-img">
+                        <img src="img/my-profile.jpg" alt="" height="100%" width="100%">
+                    </div>
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-3">
+                    <p class="m-0 text-muted fw-500 fs-18">Name:</p>
+                    <p class="fw-600 fs-18">Md shariq</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="m-0 text-muted fw-500 fs-18">Email:</p>
+                    <p class="fw-600 fs-18">shariq27122001@gmail.com</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="m-0 text-muted fw-500 fs-18">Date of birth:</p>
+                    <p class="fw-600 fs-18">27 December, 2001</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="m-0 text-muted fw-500 fs-18">From:</p>
+                    <p class="fw-600 fs-18">Bhopal, India.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="section-2" id="what-i-do">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">What I Do?</span></p>
+            <p class="fw-600 fs-35 fs-md-40 text-center mb-5">How I can help your next project</p>
+
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-palette experiance-icon"></i>
+                    <p class="fw-600 fs-25">Web Design</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-desktop experiance-icon"></i>
+                    <p class="fw-600 fs-25">Web Design</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-pencil-ruler experiance-icon"></i>
+                    <p class="fw-600 fs-25">Web Design</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-paint-brush experiance-icon"></i>
+                    <p class="fw-600 fs-25">Web Design</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-chart-area experiance-icon"></i>
+                    <p class="fw-600 fs-25">Web Design</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-bullhorn experiance-icon"></i>
+                    <p class="fw-600 fs-25">Web Design</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="section-3 " id="resume">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">Resume</span></p>
+            <p class="fw-600 fs-35 fs-md-40 text-center mb-5">A summary of My Resume</p>
+            <div class="row">
+                <!-- <div class="col-md-6">
+                    <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
+                    <div class=" border-start border-2 border-primary ps-3">
+                        <h3 class="fs-21">Master in Computer Engineering</h3>
+                        <p class="mb-2">Harvard University / 2015 - 2017</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="fs-21">Bachelor in Computer Engineering</h3>
+                        <p class="mb-2">University of California / 2014 - 2015</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="fs-21">Computer Science</h3>
+                        <p class="mb-2">International University / 2013 - 2014</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                    </div>
+                </div> -->
+                <div class="col-md-12">
+                    <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
+                    <div class=" border-start border-2 border-primary ps-3">
+                        <h3 class="fs-21">Hackerkernel - Bhopal</h3>
+                        <p class="mb-2">Front End Deveploer / Sept 2021 -  Feb 2022</p>
+                        <p class="text-muted">Developing the frontend part of the application including api integration and deployment.</p>
+                        <hr class="my-4">
+                        <h3 class="fs-21">Split Money - Bhopal</h3>
+                        <p class="mb-2">Front End Deveploer / March 2021 - Aug 2021</p>
+                        <p class="text-muted">My role here is to bringing mock-ups to life using HTML, CSS, Bootstrap, Javascript  and  Angular.</p>
+                        <hr class="my-4">
+                        <!-- <h3 class="fs-21">HTML Developer</h3>
+                        <p class="mb-2">Adobe Inc / 2017 - 2018</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 mb-4">
+                <h2 class="text-7 fw-600 mb-4 pb-2">My Skills</h2>
+                <div class="row gx-0">
+                    <div class="col-md-6 pe-0 pe-md-5">
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Web Design <span class="float-end">90%</span></p>
+                            <div class="progress-bar">
+                                <div class="web-design">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">95%</span></p>
+                            <div class="progress-bar">
+                                <div class="html">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Bootstrap <span class="float-end">98%</span></p>
+                            <div class="progress-bar">
+                                <div class="bootstrap">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ps-0 ps-md-5">
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">JavaScript <span class="float-end">55%</span></p>
+                            <div class="progress-bar">
+                                <div class="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Angular<span class="float-end">65%</span></p>
+                            <div class="progress-bar">
+                                <div class="angular">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Ionic <span class="float-end">45%</span></p>
+                            <div class="progress-bar">
+                                <div class="ionic">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="./Resume.pdf" download>
+                    <button class="btn btn-outline-dark download-resume-btn rounded-0 fw-500 fs-18"> Download
+                        CV</button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-4" id="my-work">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">Portfolio</span></p>
+            <p class="fw-600 fs-35 fs-md-40 text-center mb-5">Some of my most recent projects</p>
+
+            <div class="row">
+                <div class="col-md-4">
+                <a target="_blank" href="http://165.22.222.20/demo/the-art/index.php">
+                    <div class="project-1">
+
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-4">
+                 <a target="_blank" href="http://165.22.222.20/demo/reeka/">
+                    <div class="project-2">
+
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-4">
+                    <a target="_blank" href="https://www.splitmoney.in/">
+                    <div class="project-3">
+
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-4">
+                   <a target="_blank" href="https://github.com/Md-Shariq/school-management-software">
+                      <div class="project-4">
+
+                       </div>
+                   </a>
+                </div>
+                <div class="col-md-4">
+                    <a target="_blank" href="https://shariq-portfolio.000webhostapp.com/front/">
+                        <div class="project-5">
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a target="_blank" href="https://shariq-portfolio.000webhostapp.com/Claco/">
+                        <div class="project-6">
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-5">
+        <div>
+            <p class="text-light fw-600 fs-40 text-center">Interested in working with me?</p>
+        </div>
+        <div>
+            <p> <button class="btn  view-work-btn rounded-0 mt-3" onclick="myFunction('contact-us')">Hire Me! </button>
+            </p>
+        </div>
+    </section>
+
+    <section class="section-6">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">Client Speak</span></p>
+            <p class="fw-600 fs-35 fs-md-40 text-center mb-5 text-light">What Some of my Clients Say</p>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-9 d-flex justify-content-center flex-column align-items-center">
+                                <div>
+                                    <p class="text-center text-light fs-16 fs-md-20 px-0 px-md-5 pt-4">“I have used them
+                                        twice now. Good
+                                        rates, very efficient service and priced simply dummy text of the
+                                        printing and typesetting industry quidam interesset his et. simply dummy text of
+                                        the printing and
+                                        typesetting industry. Excellent.”</p>
+                                </div>
+                                <div class="clint-img">
+
+                                    <img src="img/client-sm-4.jpg" alt="" height="100%" width="100%">
+
+                                </div>
+                                <p class="text-light fw-600 m-0">Chris Tom</p>
+                                <p class="text-light fs-18">Freelancer from USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-9 d-flex justify-content-center flex-column align-items-center">
+                                <div>
+                                    <p class="text-center text-light fs-16 fs-md-20 px-0 px-md-5 pt-4">“I have used them
+                                        twice now. Good
+                                        rates, very efficient service and priced simply dummy text of the
+                                        printing and typesetting industry quidam interesset his et. simply dummy text of
+                                        the printing and
+                                        typesetting industry. Excellent.”</p>
+                                </div>
+                                <div class="clint-img">
+
+                                </div>
+                                <p class="text-light fw-600 m-0">Chris Tom</p>
+                                <p class="text-light fs-18">Freelancer from USA</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-9 d-flex justify-content-center flex-column align-items-center">
+                                <div>
+                                    <p class="text-center text-light fs-16 fs-md-20 px-0 px-md-5 pt-4">“I have used them
+                                        twice now. Good
+                                        rates, very efficient service and priced simply dummy text of the
+                                        printing and typesetting industry quidam interesset his et. simply dummy text of
+                                        the printing and
+                                        typesetting industry. Excellent.”</p>
+                                </div>
+                                <div class="clint-img">
+
+                                </div>
+                                <p class="text-light fw-600 m-0">Chris Tom</p>
+                                <p class="text-light fs-18">Freelancer from USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="slider-icon" aria-hidden="true"><i class="fas fa-angle-left fs-25"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="slider-icon" aria-hidden="true"><i class="fas fa-angle-right fs-25"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <section class="section-7" id="contact-us">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <p class="fw-600 mb-5 fs-40 text-center text-md-start">Let's get in touch</p>
+                    <p class="my-content mb-5 text-center text-md-start">I enjoy discussing new projects and design
+                        challenges. Please share as
+                        much info, as possible so
+                        we can get the most out of our first catch-up.</p>
+                    <p class="fw-600 fs-22 m-0 mb-1  text-center text-md-start">Living In:</p>
+                    <p class="fs-18  text-center text-md-start">Ashoka Garden, Bhopal, India.</p>
+                    <p class="fw-600 fs-22 m-0 mb-1  text-center text-md-start">Call:</p>
+                    <p class="fs-18 m-0 mb-5  text-center text-md-start">(+91) 8789 460 251</p>
+                    <p class=" text-center text-md-start">
+                        <i class="fab fa-twitter fs-30 me-3 social-icon twitter-icon"></i>
+                        <a target="_blank" href="https://www.facebook.com/mdshariqquraishi.shariq" class="text-decoration-none">
+                           <i class="fab fa-facebook fs-30 me-3 social-icon facebook-icon"></i>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/mdshariq2712/" class="text-decoration-none">
+                            <i class="fab fa-instagram fs-30 me-3 social-icon instagram-icon"></i>
+                        </a>
+                        <a target="_blank" href="https://github.com/Md-Shariq" class="text-decoration-none">
+                            <i class="fab fa-github fs-30 me-3 social-icon github-icon"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohammad-shariq-567811217/" class="text-decoration-none">
+                            <i class="fab fa-linkedin fs-30 social-icon linkedin-icon"></i>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <p class="fw-600 mb-4 fs-40 m-0  text-center text-md-start">Estimate your Project?</p>
+                    <form action="sendMail.php" class="contact_form" method="post">
+                        <div class="row gy-4">
+                            <div class="col-12">
+                                <label class="form-label" for="name">What is Your Name:</label>
+                                <input id="name" name="name" type="text" class="form-control py-1" required="">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="email">Your Email Address:</label>
+                                <input id="email" name="email" type="email" class="form-control py-1" required="">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="form-message">How can I Help you?:</label>
+                                <textarea id="form-message" name="form-message" class="form-control py-1" rows="4"
+                                    required=""></textarea>
+                            </div>
+                            <div class="col-12 text-center text-lg-start text-center">
+                                <button id="submit-btn" class="btn btn-dark rounded-0 send-btn fw-500"
+                                    type="submit">Send
+                                    <span class="ms-3"><i class="fas fa-arrow-right"></i></span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer bg-dark">
+        <div class="container d-block d-md-flex justify-content-between py-5">
+            <p class=" m-0 mb-lg-0 text-light text-center text-md-start">Copyright © 2022 <a class="fw-600"
+                    href="#">Portfolio</a>. All Rights
+                Reserved.</p>
+            <p class="m-0 text-center  text-light">Designed by <a class="fw-600" href="#">Md shariq</a></p>
+        </div>
+    </footer>
+
+   
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
